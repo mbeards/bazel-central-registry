@@ -11,7 +11,8 @@
         "github:open62541/open62541"
     ],
     "versions": [
-        "1.4.6"
+        "1.4.6",
+        "1.4.6.bcr.1"
     ],
     "yanked_versions": {}
 }

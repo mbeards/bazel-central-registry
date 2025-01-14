@@ -1,0 +1,14 @@
+{
+    "url": "https://github.com/open62541/open62541/archive/refs/tags/v1.4.6.tar.gz",
+    "integrity": "sha256-vErRhf7FwlfhX8uBO3/vlge3qqXTVd57Zl4fIQVW044=",
+    "strip_prefix": "open62541-1.4.6",
+    "patches": {
+        "build_with_boringssl.patch": "sha256-f7V3sl0QNjWLnvd8ztwXbo8HW4axFKMQTzG5Nh+QihM="
+    },
+    "overlay": {
+        "BUILD.bazel": "sha256-RMspHL1y4vqcPM5fFN06UAHm7bSh8/IvlvyuawhDQog=",
+        "MODULE.bazel": "sha256-XIPJere/UIGXqzupAgGEHLhsOoD1fMQgwIeDh8uvcWQ=",
+        "open62541.bzl": "sha256-/bjJP7RtOdyEMBYmyhgC1Fk2TW50L6dJ7z3J4xs6QaE="
+    },
+    "patch_strip": 1
+}
