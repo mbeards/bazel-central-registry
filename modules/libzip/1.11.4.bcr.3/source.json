@@ -1,0 +1,12 @@
+{
+    "url": "https://github.com/nih-at/libzip/releases/download/v1.11.4/libzip-1.11.4.tar.gz",
+    "integrity": "sha256-guny8kIfnXwkZrvDFzzQlZWojqN9sNVZqdCi3GDcci4=",
+    "strip_prefix": "libzip-1.11.4",
+    "overlay": {
+        "BUILD.bazel": "sha256-oeyZQEt8XZNB8DXvKv3dZg6Or0nJBkIT0ZkNwtU6Deo=",
+        "MODULE.bazel": "sha256-T12gI8oA8JzQ2yanN9ZxBmzm37pYaeT/aahqZIh7qvM=",
+        "generate_config_h.py": "sha256-M5JqbA3gNRdeGg5Dq2zb9I/brII2mMvELKATgBdvcIo=",
+        "generate_zip_err_str.py": "sha256-fWbmYHf5ptvweUdU9/8akywx9CQItivIE6/YLzkVTWc=",
+        "generate_zipconf_h.py": "sha256-lbCzVbQ/8H/lXrnaLuqVR4MYzE/7N0ORh4/FEhMo5r0="
+    }
+}
